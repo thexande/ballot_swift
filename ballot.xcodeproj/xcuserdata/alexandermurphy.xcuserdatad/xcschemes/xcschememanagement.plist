@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ballot-watch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ballot-watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ballot.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>B0642B531D8A054E00144DF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0642B671D8A063600144DF8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

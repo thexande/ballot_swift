@@ -14,6 +14,14 @@
 		B0642B431D8A054E00144DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0642B411D8A054E00144DF8 /* LaunchScreen.storyboard */; };
 		B0642B4E1D8A054E00144DF8 /* ballotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B4D1D8A054E00144DF8 /* ballotTests.swift */; };
 		B0642B591D8A054F00144DF8 /* ballotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B581D8A054F00144DF8 /* ballotUITests.swift */; };
+		B0642B6C1D8A063600144DF8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0642B6A1D8A063600144DF8 /* Interface.storyboard */; };
+		B0642B6E1D8A063600144DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0642B6D1D8A063600144DF8 /* Assets.xcassets */; };
+		B0642B751D8A063600144DF8 /* ballot-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0642B741D8A063600144DF8 /* ballot-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0642B7C1D8A063600144DF8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B7B1D8A063600144DF8 /* InterfaceController.swift */; };
+		B0642B7E1D8A063600144DF8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B7D1D8A063600144DF8 /* ExtensionDelegate.swift */; };
+		B0642B801D8A063600144DF8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B7F1D8A063600144DF8 /* NotificationController.swift */; };
+		B0642B821D8A063600144DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0642B811D8A063600144DF8 /* Assets.xcassets */; };
+		B0642B861D8A063600144DF8 /* ballot-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0642B681D8A063600144DF8 /* ballot-watch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,46 @@
 			remoteGlobalIDString = B0642B341D8A054E00144DF8;
 			remoteInfo = ballot;
 		};
+		B0642B761D8A063600144DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0642B2D1D8A054E00144DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0642B731D8A063600144DF8;
+			remoteInfo = "ballot-watch Extension";
+		};
+		B0642B841D8A063600144DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0642B2D1D8A054E00144DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0642B671D8A063600144DF8;
+			remoteInfo = "ballot-watch";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0642B8A1D8A063600144DF8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0642B751D8A063600144DF8 /* ballot-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0642B8E1D8A063600144DF8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B0642B861D8A063600144DF8 /* ballot-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B0642B351D8A054E00144DF8 /* ballot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +94,17 @@
 		B0642B541D8A054E00144DF8 /* ballotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ballotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0642B581D8A054F00144DF8 /* ballotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballotUITests.swift; sourceTree = "<group>"; };
 		B0642B5A1D8A054F00144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0642B681D8A063600144DF8 /* ballot-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ballot-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0642B6B1D8A063600144DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B0642B6D1D8A063600144DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0642B6F1D8A063600144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0642B741D8A063600144DF8 /* ballot-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ballot-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0642B7A1D8A063600144DF8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B0642B7B1D8A063600144DF8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B0642B7D1D8A063600144DF8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B0642B7F1D8A063600144DF8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B0642B811D8A063600144DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0642B831D8A063600144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +129,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0642B711D8A063600144DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +145,8 @@
 				B0642B371D8A054E00144DF8 /* ballot */,
 				B0642B4C1D8A054E00144DF8 /* ballotTests */,
 				B0642B571D8A054F00144DF8 /* ballotUITests */,
+				B0642B691D8A063600144DF8 /* ballot-watch */,
+				B0642B781D8A063600144DF8 /* ballot-watch Extension */,
 				B0642B361D8A054E00144DF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +157,8 @@
 				B0642B351D8A054E00144DF8 /* ballot.app */,
 				B0642B491D8A054E00144DF8 /* ballotTests.xctest */,
 				B0642B541D8A054E00144DF8 /* ballotUITests.xctest */,
+				B0642B681D8A063600144DF8 /* ballot-watch.app */,
+				B0642B741D8A063600144DF8 /* ballot-watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +194,37 @@
 			path = ballotUITests;
 			sourceTree = "<group>";
 		};
+		B0642B691D8A063600144DF8 /* ballot-watch */ = {
+			isa = PBXGroup;
+			children = (
+				B0642B6A1D8A063600144DF8 /* Interface.storyboard */,
+				B0642B6D1D8A063600144DF8 /* Assets.xcassets */,
+				B0642B6F1D8A063600144DF8 /* Info.plist */,
+			);
+			path = "ballot-watch";
+			sourceTree = "<group>";
+		};
+		B0642B781D8A063600144DF8 /* ballot-watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B0642B7B1D8A063600144DF8 /* InterfaceController.swift */,
+				B0642B7D1D8A063600144DF8 /* ExtensionDelegate.swift */,
+				B0642B7F1D8A063600144DF8 /* NotificationController.swift */,
+				B0642B811D8A063600144DF8 /* Assets.xcassets */,
+				B0642B831D8A063600144DF8 /* Info.plist */,
+				B0642B791D8A063600144DF8 /* Supporting Files */,
+			);
+			path = "ballot-watch Extension";
+			sourceTree = "<group>";
+		};
+		B0642B791D8A063600144DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0642B7A1D8A063600144DF8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +235,12 @@
 				B0642B311D8A054E00144DF8 /* Sources */,
 				B0642B321D8A054E00144DF8 /* Frameworks */,
 				B0642B331D8A054E00144DF8 /* Resources */,
+				B0642B8E1D8A063600144DF8 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B0642B851D8A063600144DF8 /* PBXTargetDependency */,
 			);
 			name = ballot;
 			productName = ballot;
@@ -181,6 +283,40 @@
 			productReference = B0642B541D8A054E00144DF8 /* ballotUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B0642B671D8A063600144DF8 /* ballot-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0642B8B1D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch" */;
+			buildPhases = (
+				B0642B661D8A063600144DF8 /* Resources */,
+				B0642B8A1D8A063600144DF8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0642B771D8A063600144DF8 /* PBXTargetDependency */,
+			);
+			name = "ballot-watch";
+			productName = "ballot-watch";
+			productReference = B0642B681D8A063600144DF8 /* ballot-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B0642B731D8A063600144DF8 /* ballot-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0642B871D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch Extension" */;
+			buildPhases = (
+				B0642B701D8A063600144DF8 /* Sources */,
+				B0642B711D8A063600144DF8 /* Frameworks */,
+				B0642B721D8A063600144DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ballot-watch Extension";
+			productName = "ballot-watch Extension";
+			productReference = B0642B741D8A063600144DF8 /* ballot-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +338,12 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = B0642B341D8A054E00144DF8;
 					};
+					B0642B671D8A063600144DF8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B0642B731D8A063600144DF8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = B0642B301D8A054E00144DF8 /* Build configuration list for PBXProject "ballot" */;
@@ -220,6 +362,8 @@
 				B0642B341D8A054E00144DF8 /* ballot */,
 				B0642B481D8A054E00144DF8 /* ballotTests */,
 				B0642B531D8A054E00144DF8 /* ballotUITests */,
+				B0642B671D8A063600144DF8 /* ballot-watch */,
+				B0642B731D8A063600144DF8 /* ballot-watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +390,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0642B661D8A063600144DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0642B6E1D8A063600144DF8 /* Assets.xcassets in Resources */,
+				B0642B6C1D8A063600144DF8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0642B721D8A063600144DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0642B821D8A063600144DF8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +438,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0642B701D8A063600144DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0642B801D8A063600144DF8 /* NotificationController.swift in Sources */,
+				B0642B7E1D8A063600144DF8 /* ExtensionDelegate.swift in Sources */,
+				B0642B7C1D8A063600144DF8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +460,16 @@
 			isa = PBXTargetDependency;
 			target = B0642B341D8A054E00144DF8 /* ballot */;
 			targetProxy = B0642B551D8A054E00144DF8 /* PBXContainerItemProxy */;
+		};
+		B0642B771D8A063600144DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0642B731D8A063600144DF8 /* ballot-watch Extension */;
+			targetProxy = B0642B761D8A063600144DF8 /* PBXContainerItemProxy */;
+		};
+		B0642B851D8A063600144DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0642B671D8A063600144DF8 /* ballot-watch */;
+			targetProxy = B0642B841D8A063600144DF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +488,14 @@
 				B0642B421D8A054E00144DF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B0642B6A1D8A063600144DF8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0642B6B1D8A063600144DF8 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -465,6 +654,66 @@
 			};
 			name = Release;
 		};
+		B0642B881D8A063600144DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ballot-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.ballot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B0642B891D8A063600144DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ballot-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.ballot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		B0642B8C1D8A063600144DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ballot_watch_Extension;
+				INFOPLIST_FILE = "ballot-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.ballot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B0642B8D1D8A063600144DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ballot_watch_Extension;
+				INFOPLIST_FILE = "ballot-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.ballot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +747,22 @@
 			buildConfigurations = (
 				B0642B641D8A054F00144DF8 /* Debug */,
 				B0642B651D8A054F00144DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0642B871D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0642B881D8A063600144DF8 /* Debug */,
+				B0642B891D8A063600144DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0642B8B1D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0642B8C1D8A063600144DF8 /* Debug */,
+				B0642B8D1D8A063600144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
