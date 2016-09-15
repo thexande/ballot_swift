@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ballot-watch Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ballot-watch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ballot.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ballotTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ballotUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1AE9628BCF298F45F5DC9C98E87A4286</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C0C98A97E17964D8B7F280525550CE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>82DECBA9CCC8DE7542099FD045E36B09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6E5F503A573BA3D7EF0B5353A328CF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B80EB880A9DC5421BCC4EDC74FDED675</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

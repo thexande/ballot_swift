@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094273F41E10FC69B4F41D228A59105B /* Pods-ballot-watch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD92EDF8E5B6392B179B0C008313232C /* Pods-ballot-watch Extension-dummy.m */; };
+		0BF335DF2E8B7C4FBE60527547913ADD /* Pods-ballot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C89A3E19EBBA62607491A60A20C1DEFB /* Pods-ballot-dummy.m */; };
+		53A781256A0614D8FF492998B446B1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		7066D61985CF6D1810ECB8A910A9EAAC /* Pods-ballotUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B826EFCCCFFA3E3394AAD4927E1BC /* Pods-ballotUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E748EE716FC62EA7FD7DFBDED8CB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */; };
+		8AE308455D405F9FB5096B02BE235B3F /* Pods-ballot-watch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9DED2C34F05F8DA1DFD3EC337FFFBD /* Pods-ballot-watch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6547400330841F03A744B6A4E88B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		9AFC942C98EE35458363D443437AC4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */; };
+		A696FDA022E49CD93CDB0E5E09C4849C /* Pods-ballot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F89661F2A6EA8E7CCCB5389DD6D42BE5 /* Pods-ballot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0929D725C70E8E040FEFA62A8B5AC2 /* Pods-ballot-watch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1530A305D78CB9092878D8DCF6B5AE8 /* Pods-ballot-watch-dummy.m */; };
+		B3B030E7B8873743A659476629283D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */; };
+		B4B9EAC0C00D2713819D1422766FE125 /* Pods-ballot-watch Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEEF52FEDEC474B74367B23148F35DD /* Pods-ballot-watch Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E737014BCBEF3FF775A7BD37CC1872 /* Pods-ballotUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0A34E17C21A69191C0F1D064E1DE0 /* Pods-ballotUITests-dummy.m */; };
+		EE1F5F09B6B7EAC59CB5557C7D310705 /* Pods-ballotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2C98BA34C54B1D3E2B1C2A3E04095 /* Pods-ballotTests-dummy.m */; };
+		FDF7C2343B895608A62B6298354CCDA1 /* Pods-ballotTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B67A7E8B410EAE45CC440BF1F11E2F1 /* Pods-ballotTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003E78F568DA4F16265613A7AFDCDC5E /* Pods-ballot-watch Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ballot-watch Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AE9030AECCBD1CF201924F58F94F288 /* Pods-ballotTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballotTests-frameworks.sh"; sourceTree = "<group>"; };
+		0E3C71A7943C64BDDA5135F9303C15E7 /* Pods-ballotUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballotUITests-resources.sh"; sourceTree = "<group>"; };
+		11BCB7B0C45BB10D40714DB125CC7FBF /* Pods-ballot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ballot-acknowledgements.plist"; sourceTree = "<group>"; };
+		14FF582324BA68E9662D8F0F4DD7C71B /* Pods-ballot-watch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-watch-frameworks.sh"; sourceTree = "<group>"; };
+		1613233751234F6C7B01AD67C3902F15 /* Pods_ballot_watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot_watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173BE3D5E7FD6884B2A5AF3236974771 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		1B43F620BF4B6FBFEFB6EA3F2984037D /* Pods_ballot_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4275FEFCA65144B91A48DED04CCF67 /* Pods-ballotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ballotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26E43C84B52FA8C3B0AFF020F1B4CC56 /* Pods-ballot-watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot-watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2A6144054BFFE2C0A8D99DD74D8A5672 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2CA5C66BE8DEE9CBC468101A9A09E3E7 /* Pods-ballot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ballot.modulemap"; sourceTree = "<group>"; };
+		2E451B51A8E1CF54C564ADA77745D140 /* Pods-ballot-watch Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ballot-watch Extension.modulemap"; sourceTree = "<group>"; };
+		32AB060EE8B26503EB15F33BDC4D1711 /* Pods-ballot-watch Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ballot-watch Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BD5485042BA20C1537A43A10C97FD29 /* Pods-ballot-watch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ballot-watch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40C23754F21F3933F72F562746D0D2B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B5352DF02FC96E2D86927E82D59392 /* Pods-ballotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballotTests.release.xcconfig"; sourceTree = "<group>"; };
+		4384696C652493B8869675D58C0A315B /* Pods-ballot-watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot-watch.release.xcconfig"; sourceTree = "<group>"; };
+		59ED11D8CF66F4123341F36C1C72C2B9 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		63C0AF03348528BFFE5000E5ECA6BC88 /* Pods-ballot-watch Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-watch Extension-resources.sh"; sourceTree = "<group>"; };
+		672FCE29349DBB8C51E38F908F1B45FF /* Pods_ballot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C63E477E0F8DCAB15BDD034B359EB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72848466B7E5CF6C3E35386FFA1D3953 /* Pods-ballot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot.debug.xcconfig"; sourceTree = "<group>"; };
+		76A431A9616476211F0F68D59A9F7A13 /* Pods-ballot-watch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ballot-watch.modulemap"; sourceTree = "<group>"; };
+		7740D49908054CA6BA299FAFB661E961 /* Pods-ballotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD199F8B6D25F7B50DD7470ABA5A831 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7F22CB516F49C250BBBB1D6DFBA1A2B5 /* Pods-ballot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-resources.sh"; sourceTree = "<group>"; };
+		8310F40AE436D1AB962F19282C2493CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88651DCCB10181215697B91ACAFD7657 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B67A7E8B410EAE45CC440BF1F11E2F1 /* Pods-ballotTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ballotTests-umbrella.h"; sourceTree = "<group>"; };
+		8CA0A34E17C21A69191C0F1D064E1DE0 /* Pods-ballotUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ballotUITests-dummy.m"; sourceTree = "<group>"; };
+		915D7AD45EAA7D7A8584DA97E1BFD868 /* Pods-ballot-watch Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-watch Extension-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		984431455A05F47B92CFEFC45917F88F /* Pods-ballotUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ballotUITests.modulemap"; sourceTree = "<group>"; };
+		9EC2A979829F26A198D3459B48C5996B /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5741189EF84E5DE25E60A0E56BCF13F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		A6D910789D6AC00D7AB322463CAE2EFD /* Pods-ballot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ballot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD92EDF8E5B6392B179B0C008313232C /* Pods-ballot-watch Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ballot-watch Extension-dummy.m"; sourceTree = "<group>"; };
+		B1B747F90C7705B741747B9BF13A0439 /* Pods-ballotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B20CBCA1505CBB0552A608007AD23A99 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		B4005C96A901FF7F9427405002AB7C03 /* Pods-ballot-watch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-watch-resources.sh"; sourceTree = "<group>"; };
+		B54B74C8CBDB2E992F15712884F1BBED /* Pods_ballotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEEF52FEDEC474B74367B23148F35DD /* Pods-ballot-watch Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ballot-watch Extension-umbrella.h"; sourceTree = "<group>"; };
+		BC0B826EFCCCFFA3E3394AAD4927E1BC /* Pods-ballotUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ballotUITests-umbrella.h"; sourceTree = "<group>"; };
+		C4E2C98BA34C54B1D3E2B1C2A3E04095 /* Pods-ballotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ballotTests-dummy.m"; sourceTree = "<group>"; };
+		C89A3E19EBBA62607491A60A20C1DEFB /* Pods-ballot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ballot-dummy.m"; sourceTree = "<group>"; };
+		CA75BD1DB8D97E426997EFC2BBB31F29 /* Pods-ballotUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ballotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC58824C79B510B5F6CCB056CB9A96F6 /* Pods-ballotUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D1530A305D78CB9092878D8DCF6B5AE8 /* Pods-ballot-watch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ballot-watch-dummy.m"; sourceTree = "<group>"; };
+		D7C03D0D3F3DFAF9CDF0FAD46FA35F54 /* Pods-ballotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ballotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DABFA9E6D0E41514856FB4CB902FD393 /* Pods-ballotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ballotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC9DED2C34F05F8DA1DFD3EC337FFFBD /* Pods-ballot-watch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ballot-watch-umbrella.h"; sourceTree = "<group>"; };
+		DD21EC3B38CC482B59F9BEEAB7739440 /* Pods-ballotTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ballotTests.modulemap"; sourceTree = "<group>"; };
+		E20456FDC2709EA9440FFD134CD743C8 /* Pods-ballot-watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot-watch.debug.xcconfig"; sourceTree = "<group>"; };
+		E5AD240CAD863F402AA721A523E63F4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC71093B11B73608359007945AFE8E9 /* Pods-ballot-watch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ballot-watch-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFBCB9BA702741FF3C58C3677594E3F9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		F38DC3517FA31491105F6BAB9B56DD19 /* Pods-ballotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F54D9C631880089CF5B5828694EC3770 /* Pods-ballot-watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot-watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F8966566133F1B8DF1D44C351ADB61 /* Pods_ballotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87BACDC1B2F6D223DB316B73644609B /* Pods-ballot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballot-frameworks.sh"; sourceTree = "<group>"; };
+		F89661F2A6EA8E7CCCB5389DD6D42BE5 /* Pods-ballot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ballot-umbrella.h"; sourceTree = "<group>"; };
+		FCC857E4217E65CF498A50A3706B34B7 /* Pods-ballotTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ballotTests-resources.sh"; sourceTree = "<group>"; };
+		FD4D32640B1BE568A1C5105614E9B86E /* Pods-ballot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ballot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BDF5421EB8F9D36787FD5912FB078D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E748EE716FC62EA7FD7DFBDED8CB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370897C77F9EB65B7EE7B2F664F9FB20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFC942C98EE35458363D443437AC4D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603C706F617EE0ACED33BEB2C1C9EC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A781256A0614D8FF492998B446B1C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D700281501880AEF00B8418EA4098D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B030E7B8873743A659476629283D22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00488765A1CFE67DB38F18AF494B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6547400330841F03A744B6A4E88B49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F44D02479172F82D13993E1D3145FA /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				EE171FCA9129C563D5DD74910A51F38F /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		26F9C39E7BC340A22D0172E36DD814C7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A136DB53B8E99DF02F7BC3BDCD940258 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3715C1FD65FC43924AEE615C9BA949B5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				EB7AD1E11FD151325216A8422E3CE3E7 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		53B766708A83BA1A9712BB209BA238E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3715C1FD65FC43924AEE615C9BA949B5 /* Firebase */,
+				17F44D02479172F82D13993E1D3145FA /* FirebaseAnalytics */,
+				A0312E391FAD27C57573DF24E02718A2 /* FirebaseDatabase */,
+				879E0BACA876EE201AE2A6B70AE7D89F /* FirebaseInstanceID */,
+				80EEC67F754484ADF268A0844CB4211B /* GoogleInterchangeUtilities */,
+				B5741D6B1D1895BF37B98C326875D222 /* GoogleSymbolUtilities */,
+				7B45E2FBFA12606E601C184142189D7F /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B744589EB306B5B04C2178D4790756A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EC2A979829F26A198D3459B48C5996B /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F424F28F998CB5A06656DF8042A4CB /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB21402F2628AE5AD7FE931E3C014436 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		7B45E2FBFA12606E601C184142189D7F /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				90078067A3170139DC228D6ABFD06366 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				53B766708A83BA1A9712BB209BA238E3 /* Pods */,
+				C259F926207F3C7375CCB536127F714A /* Products */,
+				9B01453F714429CACBA7E67A5AFEA478 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80EEC67F754484ADF268A0844CB4211B /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5B744589EB306B5B04C2178D4790756A /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		82E9AEA14F0F79C660B21164B97E7E91 /* Pods-ballot */ = {
+			isa = PBXGroup;
+			children = (
+				8310F40AE436D1AB962F19282C2493CC /* Info.plist */,
+				2CA5C66BE8DEE9CBC468101A9A09E3E7 /* Pods-ballot.modulemap */,
+				A6D910789D6AC00D7AB322463CAE2EFD /* Pods-ballot-acknowledgements.markdown */,
+				11BCB7B0C45BB10D40714DB125CC7FBF /* Pods-ballot-acknowledgements.plist */,
+				C89A3E19EBBA62607491A60A20C1DEFB /* Pods-ballot-dummy.m */,
+				F87BACDC1B2F6D223DB316B73644609B /* Pods-ballot-frameworks.sh */,
+				7F22CB516F49C250BBBB1D6DFBA1A2B5 /* Pods-ballot-resources.sh */,
+				F89661F2A6EA8E7CCCB5389DD6D42BE5 /* Pods-ballot-umbrella.h */,
+				72848466B7E5CF6C3E35386FFA1D3953 /* Pods-ballot.debug.xcconfig */,
+				FD4D32640B1BE568A1C5105614E9B86E /* Pods-ballot.release.xcconfig */,
+			);
+			name = "Pods-ballot";
+			path = "Target Support Files/Pods-ballot";
+			sourceTree = "<group>";
+		};
+		879E0BACA876EE201AE2A6B70AE7D89F /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				59ED11D8CF66F4123341F36C1C72C2B9 /* FIRInstanceID.h */,
+				F8C0EAADE3E2DA9EF312DCA3D658CB9B /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		8CE53F387FCB8279CAA2CEDCE6978651 /* Pods-ballot-watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88651DCCB10181215697B91ACAFD7657 /* Info.plist */,
+				2E451B51A8E1CF54C564ADA77745D140 /* Pods-ballot-watch Extension.modulemap */,
+				003E78F568DA4F16265613A7AFDCDC5E /* Pods-ballot-watch Extension-acknowledgements.markdown */,
+				32AB060EE8B26503EB15F33BDC4D1711 /* Pods-ballot-watch Extension-acknowledgements.plist */,
+				AD92EDF8E5B6392B179B0C008313232C /* Pods-ballot-watch Extension-dummy.m */,
+				915D7AD45EAA7D7A8584DA97E1BFD868 /* Pods-ballot-watch Extension-frameworks.sh */,
+				63C0AF03348528BFFE5000E5ECA6BC88 /* Pods-ballot-watch Extension-resources.sh */,
+				BAEEF52FEDEC474B74367B23148F35DD /* Pods-ballot-watch Extension-umbrella.h */,
+				F54D9C631880089CF5B5828694EC3770 /* Pods-ballot-watch Extension.debug.xcconfig */,
+				26E43C84B52FA8C3B0AFF020F1B4CC56 /* Pods-ballot-watch Extension.release.xcconfig */,
+			);
+			name = "Pods-ballot-watch Extension";
+			path = "Target Support Files/Pods-ballot-watch Extension";
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F9C39E7BC340A22D0172E36DD814C7 /* iOS */,
+				69F424F28F998CB5A06656DF8042A4CB /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90078067A3170139DC228D6ABFD06366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5741189EF84E5DE25E60A0E56BCF13F /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949B9CD97B7207991D0232819128CB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173BE3D5E7FD6884B2A5AF3236974771 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B01453F714429CACBA7E67A5AFEA478 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82E9AEA14F0F79C660B21164B97E7E91 /* Pods-ballot */,
+				BF986F868B40CB1661676260DDA521CC /* Pods-ballot-watch */,
+				8CE53F387FCB8279CAA2CEDCE6978651 /* Pods-ballot-watch Extension */,
+				C5916455E496C5C20B88CAAD86C12C74 /* Pods-ballotTests */,
+				C7C3B2C456236830071C25B8880B73A9 /* Pods-ballotUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0312E391FAD27C57573DF24E02718A2 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				CA0FCDCAC546F682AE5C60F5E9C42055 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		B5741D6B1D1895BF37B98C326875D222 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				949B9CD97B7207991D0232819128CB8F /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BF986F868B40CB1661676260DDA521CC /* Pods-ballot-watch */ = {
+			isa = PBXGroup;
+			children = (
+				67C63E477E0F8DCAB15BDD034B359EB3 /* Info.plist */,
+				76A431A9616476211F0F68D59A9F7A13 /* Pods-ballot-watch.modulemap */,
+				3BD5485042BA20C1537A43A10C97FD29 /* Pods-ballot-watch-acknowledgements.markdown */,
+				EAC71093B11B73608359007945AFE8E9 /* Pods-ballot-watch-acknowledgements.plist */,
+				D1530A305D78CB9092878D8DCF6B5AE8 /* Pods-ballot-watch-dummy.m */,
+				14FF582324BA68E9662D8F0F4DD7C71B /* Pods-ballot-watch-frameworks.sh */,
+				B4005C96A901FF7F9427405002AB7C03 /* Pods-ballot-watch-resources.sh */,
+				DC9DED2C34F05F8DA1DFD3EC337FFFBD /* Pods-ballot-watch-umbrella.h */,
+				E20456FDC2709EA9440FFD134CD743C8 /* Pods-ballot-watch.debug.xcconfig */,
+				4384696C652493B8869675D58C0A315B /* Pods-ballot-watch.release.xcconfig */,
+			);
+			name = "Pods-ballot-watch";
+			path = "Target Support Files/Pods-ballot-watch";
+			sourceTree = "<group>";
+		};
+		C259F926207F3C7375CCB536127F714A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672FCE29349DBB8C51E38F908F1B45FF /* Pods_ballot.framework */,
+				1B43F620BF4B6FBFEFB6EA3F2984037D /* Pods_ballot_watch.framework */,
+				1613233751234F6C7B01AD67C3902F15 /* Pods_ballot_watch_Extension.framework */,
+				F5F8966566133F1B8DF1D44C351ADB61 /* Pods_ballotTests.framework */,
+				B54B74C8CBDB2E992F15712884F1BBED /* Pods_ballotUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5916455E496C5C20B88CAAD86C12C74 /* Pods-ballotTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD240CAD863F402AA721A523E63F4E /* Info.plist */,
+				DD21EC3B38CC482B59F9BEEAB7739440 /* Pods-ballotTests.modulemap */,
+				1C4275FEFCA65144B91A48DED04CCF67 /* Pods-ballotTests-acknowledgements.markdown */,
+				DABFA9E6D0E41514856FB4CB902FD393 /* Pods-ballotTests-acknowledgements.plist */,
+				C4E2C98BA34C54B1D3E2B1C2A3E04095 /* Pods-ballotTests-dummy.m */,
+				0AE9030AECCBD1CF201924F58F94F288 /* Pods-ballotTests-frameworks.sh */,
+				FCC857E4217E65CF498A50A3706B34B7 /* Pods-ballotTests-resources.sh */,
+				8B67A7E8B410EAE45CC440BF1F11E2F1 /* Pods-ballotTests-umbrella.h */,
+				7740D49908054CA6BA299FAFB661E961 /* Pods-ballotTests.debug.xcconfig */,
+				42B5352DF02FC96E2D86927E82D59392 /* Pods-ballotTests.release.xcconfig */,
+			);
+			name = "Pods-ballotTests";
+			path = "Target Support Files/Pods-ballotTests";
+			sourceTree = "<group>";
+		};
+		C7C3B2C456236830071C25B8880B73A9 /* Pods-ballotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C23754F21F3933F72F562746D0D2B7 /* Info.plist */,
+				984431455A05F47B92CFEFC45917F88F /* Pods-ballotUITests.modulemap */,
+				D7C03D0D3F3DFAF9CDF0FAD46FA35F54 /* Pods-ballotUITests-acknowledgements.markdown */,
+				CA75BD1DB8D97E426997EFC2BBB31F29 /* Pods-ballotUITests-acknowledgements.plist */,
+				8CA0A34E17C21A69191C0F1D064E1DE0 /* Pods-ballotUITests-dummy.m */,
+				CC58824C79B510B5F6CCB056CB9A96F6 /* Pods-ballotUITests-frameworks.sh */,
+				0E3C71A7943C64BDDA5135F9303C15E7 /* Pods-ballotUITests-resources.sh */,
+				BC0B826EFCCCFFA3E3394AAD4927E1BC /* Pods-ballotUITests-umbrella.h */,
+				F38DC3517FA31491105F6BAB9B56DD19 /* Pods-ballotUITests.debug.xcconfig */,
+				B1B747F90C7705B741747B9BF13A0439 /* Pods-ballotUITests.release.xcconfig */,
+			);
+			name = "Pods-ballotUITests";
+			path = "Target Support Files/Pods-ballotUITests";
+			sourceTree = "<group>";
+		};
+		CA0FCDCAC546F682AE5C60F5E9C42055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20CBCA1505CBB0552A608007AD23A99 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB7AD1E11FD151325216A8422E3CE3E7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				EFBCB9BA702741FF3C58C3677594E3F9 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		EE171FCA9129C563D5DD74910A51F38F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD199F8B6D25F7B50DD7470ABA5A831 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C0EAADE3E2DA9EF312DCA3D658CB9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A6144054BFFE2C0A8D99DD74D8A5672 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51B16E9FEA78EAF3BF7491E012A1936F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696FDA022E49CD93CDB0E5E09C4849C /* Pods-ballot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71C834A12FAC1E90CBBAA1825C4EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7066D61985CF6D1810ECB8A910A9EAAC /* Pods-ballotUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CAE333E0BF3EEBAF8D674BD1DCF62B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B9EAC0C00D2713819D1422766FE125 /* Pods-ballot-watch Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DC246A73321D61EBFD0DC37DE53872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE308455D405F9FB5096B02BE235B3F /* Pods-ballot-watch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F02B55907BB00C6468B4FB57F839E2B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF7C2343B895608A62B6298354CCDA1 /* Pods-ballotTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AE9628BCF298F45F5DC9C98E87A4286 /* Pods-ballotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58AF094BF37465723CFD1E50AE88CC8 /* Build configuration list for PBXNativeTarget "Pods-ballotUITests" */;
+			buildPhases = (
+				D14AB5E6F4771CFB52A449FCB3EB514A /* Sources */,
+				D700281501880AEF00B8418EA4098D19 /* Frameworks */,
+				5A71C834A12FAC1E90CBBAA1825C4EA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ballotUITests";
+			productName = "Pods-ballotUITests";
+			productReference = B54B74C8CBDB2E992F15712884F1BBED /* Pods_ballotUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C0C98A97E17964D8B7F280525550CE1 /* Pods-ballot-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31047B6D737F4739E241D8AC28B38D8 /* Build configuration list for PBXNativeTarget "Pods-ballot-watch Extension" */;
+			buildPhases = (
+				1D6A984431655336E93C8DBA1159E96C /* Sources */,
+				10BDF5421EB8F9D36787FD5912FB078D /* Frameworks */,
+				67CAE333E0BF3EEBAF8D674BD1DCF62B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ballot-watch Extension";
+			productName = "Pods-ballot-watch Extension";
+			productReference = 1613233751234F6C7B01AD67C3902F15 /* Pods_ballot_watch_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82DECBA9CCC8DE7542099FD045E36B09 /* Pods-ballot-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC344CE99B291064628D2BE2DEE19F5 /* Build configuration list for PBXNativeTarget "Pods-ballot-watch" */;
+			buildPhases = (
+				7568EB670569386EE398E397F716A671 /* Sources */,
+				370897C77F9EB65B7EE7B2F664F9FB20 /* Frameworks */,
+				A9DC246A73321D61EBFD0DC37DE53872 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ballot-watch";
+			productName = "Pods-ballot-watch";
+			productReference = 1B43F620BF4B6FBFEFB6EA3F2984037D /* Pods_ballot_watch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6E5F503A573BA3D7EF0B5353A328CF0 /* Pods-ballot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E69AF808B849EB0554BDFFD02631ACA5 /* Build configuration list for PBXNativeTarget "Pods-ballot" */;
+			buildPhases = (
+				CD86AD8EA4945927A2F733C06F992452 /* Sources */,
+				603C706F617EE0ACED33BEB2C1C9EC4A /* Frameworks */,
+				51B16E9FEA78EAF3BF7491E012A1936F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ballot";
+			productName = "Pods-ballot";
+			productReference = 672FCE29349DBB8C51E38F908F1B45FF /* Pods_ballot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B80EB880A9DC5421BCC4EDC74FDED675 /* Pods-ballotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C62C82F01718AA39C238DEDC377506 /* Build configuration list for PBXNativeTarget "Pods-ballotTests" */;
+			buildPhases = (
+				31C776D5054956C0964EADC93A2A7789 /* Sources */,
+				E00488765A1CFE67DB38F18AF494B5FC /* Frameworks */,
+				F02B55907BB00C6468B4FB57F839E2B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ballotTests";
+			productName = "Pods-ballotTests";
+			productReference = F5F8966566133F1B8DF1D44C351ADB61 /* Pods_ballotTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C259F926207F3C7375CCB536127F714A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E5F503A573BA3D7EF0B5353A328CF0 /* Pods-ballot */,
+				82DECBA9CCC8DE7542099FD045E36B09 /* Pods-ballot-watch */,
+				5C0C98A97E17964D8B7F280525550CE1 /* Pods-ballot-watch Extension */,
+				B80EB880A9DC5421BCC4EDC74FDED675 /* Pods-ballotTests */,
+				1AE9628BCF298F45F5DC9C98E87A4286 /* Pods-ballotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6A984431655336E93C8DBA1159E96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094273F41E10FC69B4F41D228A59105B /* Pods-ballot-watch Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C776D5054956C0964EADC93A2A7789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F5F09B6B7EAC59CB5557C7D310705 /* Pods-ballotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7568EB670569386EE398E397F716A671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0929D725C70E8E040FEFA62A8B5AC2 /* Pods-ballot-watch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86AD8EA4945927A2F733C06F992452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF335DF2E8B7C4FBE60527547913ADD /* Pods-ballot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14AB5E6F4771CFB52A449FCB3EB514A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E737014BCBEF3FF775A7BD37CC1872 /* Pods-ballotUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B56804233A98982F5A2F73C14CA3CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4384696C652493B8869675D58C0A315B /* Pods-ballot-watch.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot-watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot-watch/Pods-ballot-watch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot_watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		1B2DFD29CD2A47459BC3EB7EBDF90056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38DC3517FA31491105F6BAB9B56DD19 /* Pods-ballotUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballotUITests/Pods-ballotUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43681528E49D8F45A7513FA701475BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54D9C631880089CF5B5828694EC3770 /* Pods-ballot-watch Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot-watch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot_watch_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		510CEA973C8D6B45FB81B673E60380E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B5352DF02FC96E2D86927E82D59392 /* Pods-ballotTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballotTests/Pods-ballotTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A41D24BB7737AD568327C60D9D542FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7740D49908054CA6BA299FAFB661E961 /* Pods-ballotTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballotTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballotTests/Pods-ballotTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballotTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F989033C1496E6BC7726E754764C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4D32640B1BE568A1C5105614E9B86E /* Pods-ballot.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot/Pods-ballot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93E41BA2C604FDCA109C9EFAA92CAA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B747F90C7705B741747B9BF13A0439 /* Pods-ballotUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballotUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballotUITests/Pods-ballotUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballotUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B6636F259EE4D227A1E631C0C694C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72848466B7E5CF6C3E35386FFA1D3953 /* Pods-ballot.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot/Pods-ballot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E9A2289E323A3A5EF1648529313931C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20456FDC2709EA9440FFD134CD743C8 /* Pods-ballot-watch.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot-watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot-watch/Pods-ballot-watch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot_watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A6DA4985635A6DCE8DD2474F29810890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B839463A183A092E64CD3F2C1C5D988C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C7A5761F0DD539A0C6D868DB123D66A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E43C84B52FA8C3B0AFF020F1B4CC56 /* Pods-ballot-watch Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ballot-watch Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ballot_watch_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C62C82F01718AA39C238DEDC377506 /* Build configuration list for PBXNativeTarget "Pods-ballotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A41D24BB7737AD568327C60D9D542FC /* Debug */,
+				510CEA973C8D6B45FB81B673E60380E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DA4985635A6DCE8DD2474F29810890 /* Debug */,
+				B839463A183A092E64CD3F2C1C5D988C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC344CE99B291064628D2BE2DEE19F5 /* Build configuration list for PBXNativeTarget "Pods-ballot-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9A2289E323A3A5EF1648529313931C /* Debug */,
+				0B56804233A98982F5A2F73C14CA3CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58AF094BF37465723CFD1E50AE88CC8 /* Build configuration list for PBXNativeTarget "Pods-ballotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2DFD29CD2A47459BC3EB7EBDF90056 /* Debug */,
+				93E41BA2C604FDCA109C9EFAA92CAA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31047B6D737F4739E241D8AC28B38D8 /* Build configuration list for PBXNativeTarget "Pods-ballot-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43681528E49D8F45A7513FA701475BD8 /* Debug */,
+				C7A5761F0DD539A0C6D868DB123D66A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E69AF808B849EB0554BDFFD02631ACA5 /* Build configuration list for PBXNativeTarget "Pods-ballot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6636F259EE4D227A1E631C0C694C58 /* Debug */,
+				8F989033C1496E6BC7726E754764C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

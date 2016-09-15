@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFABA6E6776EF12BF6AAD8F /* Pods_ballotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412079393D2F9E3C3E9207B9 /* Pods_ballotTests.framework */; };
+		47C975F47C49FA03F06F65DF /* Pods_ballot_watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614C75E08047080F2219CC13 /* Pods_ballot_watch_Extension.framework */; };
+		A45085B324D08EA5F269DB38 /* Pods_ballotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A191297B3B8C366ABFB315 /* Pods_ballotUITests.framework */; };
 		B0642B391D8A054E00144DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B381D8A054E00144DF8 /* AppDelegate.swift */; };
 		B0642B3B1D8A054E00144DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B3A1D8A054E00144DF8 /* ViewController.swift */; };
 		B0642B3E1D8A054E00144DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0642B3C1D8A054E00144DF8 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 		B0642B801D8A063600144DF8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0642B7F1D8A063600144DF8 /* NotificationController.swift */; };
 		B0642B821D8A063600144DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0642B811D8A063600144DF8 /* Assets.xcassets */; };
 		B0642B861D8A063600144DF8 /* ballot-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0642B681D8A063600144DF8 /* ballot-watch.app */; };
+		B084B26E1D8B492400E9BEB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */; };
+		B0B0FE64FFDC1E13C9C43A1F /* Pods_ballot_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */; };
+		C0F29472478628595D165106 /* Pods_ballot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AA0D613CB5105809FA04CBD /* Pods-ballotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballotTests/Pods-ballotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2839C8F7D0B1D4ADF703866F /* Pods-ballot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballot/Pods-ballot.debug.xcconfig"; sourceTree = "<group>"; };
+		412079393D2F9E3C3E9207B9 /* Pods_ballotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426AB7610A146578EEE04D8B /* Pods-ballotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballotUITests/Pods-ballotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59295CEACBB59AEEB20EAC7F /* Pods-ballotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballotUITests/Pods-ballotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		614C75E08047080F2219CC13 /* Pods_ballot_watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot_watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F6DAF9E9152CC04740DB14 /* Pods-ballotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballotTests/Pods-ballotTests.release.xcconfig"; sourceTree = "<group>"; };
+		87133269C3F12BC65D9A9D40 /* Pods-ballot-watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballot_watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC112F8DCB4ECC2943C0AB /* Pods-ballot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballot/Pods-ballot.release.xcconfig"; sourceTree = "<group>"; };
 		B0642B351D8A054E00144DF8 /* ballot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0642B381D8A054E00144DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0642B3A1D8A054E00144DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,13 +122,27 @@
 		B0642B7F1D8A063600144DF8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B0642B811D8A063600144DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0642B831D8A063600144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8A191297B3B8C366ABFB315 /* Pods_ballotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97EFE4B6BC5CFCF54E3D79F /* Pods-ballot-watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.release.xcconfig"; sourceTree = "<group>"; };
+		BF0475A5B5F5FA422836C861 /* Pods-ballot-watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD4C6992EE826D69B26F382 /* Pods-ballot-watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67A27AFC03A3B137D4259875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B0FE64FFDC1E13C9C43A1F /* Pods_ballot_watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0642B321D8A054E00144DF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F29472478628595D165106 /* Pods_ballot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFABA6E6776EF12BF6AAD8F /* Pods_ballotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45085B324D08EA5F269DB38 /* Pods_ballotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,12 +166,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C975F47C49FA03F06F65DF /* Pods_ballot_watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490F6F7C99A737AF09F6CB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */,
+				9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */,
+				614C75E08047080F2219CC13 /* Pods_ballot_watch_Extension.framework */,
+				412079393D2F9E3C3E9207B9 /* Pods_ballotTests.framework */,
+				B8A191297B3B8C366ABFB315 /* Pods_ballotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FFB5A8C95CAC15EA44BA97E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2839C8F7D0B1D4ADF703866F /* Pods-ballot.debug.xcconfig */,
+				ACAC112F8DCB4ECC2943C0AB /* Pods-ballot.release.xcconfig */,
+				BF0475A5B5F5FA422836C861 /* Pods-ballot-watch.debug.xcconfig */,
+				B97EFE4B6BC5CFCF54E3D79F /* Pods-ballot-watch.release.xcconfig */,
+				CDD4C6992EE826D69B26F382 /* Pods-ballot-watch Extension.debug.xcconfig */,
+				87133269C3F12BC65D9A9D40 /* Pods-ballot-watch Extension.release.xcconfig */,
+				0AA0D613CB5105809FA04CBD /* Pods-ballotTests.debug.xcconfig */,
+				63F6DAF9E9152CC04740DB14 /* Pods-ballotTests.release.xcconfig */,
+				59295CEACBB59AEEB20EAC7F /* Pods-ballotUITests.debug.xcconfig */,
+				426AB7610A146578EEE04D8B /* Pods-ballotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0642B2C1D8A054E00144DF8 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +211,8 @@
 				B0642B691D8A063600144DF8 /* ballot-watch */,
 				B0642B781D8A063600144DF8 /* ballot-watch Extension */,
 				B0642B361D8A054E00144DF8 /* Products */,
+				6FFB5A8C95CAC15EA44BA97E /* Pods */,
+				490F6F7C99A737AF09F6CB3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +231,7 @@
 		B0642B371D8A054E00144DF8 /* ballot */ = {
 			isa = PBXGroup;
 			children = (
+				B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */,
 				B0642B381D8A054E00144DF8 /* AppDelegate.swift */,
 				B0642B3A1D8A054E00144DF8 /* ViewController.swift */,
 				B0642B3C1D8A054E00144DF8 /* Main.storyboard */,
@@ -232,10 +298,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0642B5D1D8A054F00144DF8 /* Build configuration list for PBXNativeTarget "ballot" */;
 			buildPhases = (
+				66A169144CE4D80F264FFF3E /* [CP] Check Pods Manifest.lock */,
 				B0642B311D8A054E00144DF8 /* Sources */,
 				B0642B321D8A054E00144DF8 /* Frameworks */,
 				B0642B331D8A054E00144DF8 /* Resources */,
 				B0642B8E1D8A063600144DF8 /* Embed Watch Content */,
+				474D03EEA31FD1C686110AA2 /* [CP] Embed Pods Frameworks */,
+				E22331E27557C8C640E5ABB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0642B601D8A054F00144DF8 /* Build configuration list for PBXNativeTarget "ballotTests" */;
 			buildPhases = (
+				A082B619669F9DE646AD190F /* [CP] Check Pods Manifest.lock */,
 				B0642B451D8A054E00144DF8 /* Sources */,
 				B0642B461D8A054E00144DF8 /* Frameworks */,
 				B0642B471D8A054E00144DF8 /* Resources */,
+				9D24F814BB0B4427BFF5CA85 /* [CP] Embed Pods Frameworks */,
+				5FAE9478BC56EB22DBDECF56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0642B631D8A054F00144DF8 /* Build configuration list for PBXNativeTarget "ballotUITests" */;
 			buildPhases = (
+				5B046F8507DD9BC8EC55C0DC /* [CP] Check Pods Manifest.lock */,
 				B0642B501D8A054E00144DF8 /* Sources */,
 				B0642B511D8A054E00144DF8 /* Frameworks */,
 				B0642B521D8A054E00144DF8 /* Resources */,
+				3B653AFCA41014D6AB0A8492 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,8 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0642B8B1D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch" */;
 			buildPhases = (
+				AE08177E7BB08CB7161DB6DB /* [CP] Check Pods Manifest.lock */,
 				B0642B661D8A063600144DF8 /* Resources */,
 				B0642B8A1D8A063600144DF8 /* Embed App Extensions */,
+				67A27AFC03A3B137D4259875 /* Frameworks */,
+				A1DB1AC4727373131666896B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,9 +381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0642B871D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch Extension" */;
 			buildPhases = (
+				07414DD57828D90667F176C6 /* [CP] Check Pods Manifest.lock */,
 				B0642B701D8A063600144DF8 /* Sources */,
 				B0642B711D8A063600144DF8 /* Frameworks */,
 				B0642B721D8A063600144DF8 /* Resources */,
+				E6128C2B8FD921665FE37E8F /* [CP] Embed Pods Frameworks */,
+				C2424DE6F3C56F315F6659DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0642B431D8A054E00144DF8 /* LaunchScreen.storyboard in Resources */,
+				B084B26E1D8B492400E9BEB0 /* GoogleService-Info.plist in Resources */,
 				B0642B401D8A054E00144DF8 /* Assets.xcassets in Resources */,
 				B0642B3E1D8A054E00144DF8 /* Main.storyboard in Resources */,
 			);
@@ -411,6 +492,204 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07414DD57828D90667F176C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B653AFCA41014D6AB0A8492 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballotUITests/Pods-ballotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474D03EEA31FD1C686110AA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballot/Pods-ballot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B046F8507DD9BC8EC55C0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FAE9478BC56EB22DBDECF56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballotTests/Pods-ballotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A169144CE4D80F264FFF3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D24F814BB0B4427BFF5CA85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballotTests/Pods-ballotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A082B619669F9DE646AD190F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DB1AC4727373131666896B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE08177E7BB08CB7161DB6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2424DE6F3C56F315F6659DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22331E27557C8C640E5ABB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballot/Pods-ballot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6128C2B8FD921665FE37E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ballot-watch Extension/Pods-ballot-watch Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0642B311D8A054E00144DF8 /* Sources */ = {
@@ -588,6 +867,7 @@
 		};
 		B0642B5E1D8A054F00144DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2839C8F7D0B1D4ADF703866F /* Pods-ballot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ballot/Info.plist;
@@ -599,6 +879,7 @@
 		};
 		B0642B5F1D8A054F00144DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAC112F8DCB4ECC2943C0AB /* Pods-ballot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ballot/Info.plist;
@@ -610,6 +891,7 @@
 		};
 		B0642B611D8A054F00144DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA0D613CB5105809FA04CBD /* Pods-ballotTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ballotTests/Info.plist;
@@ -622,6 +904,7 @@
 		};
 		B0642B621D8A054F00144DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F6DAF9E9152CC04740DB14 /* Pods-ballotTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ballotTests/Info.plist;
@@ -634,6 +917,7 @@
 		};
 		B0642B641D8A054F00144DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59295CEACBB59AEEB20EAC7F /* Pods-ballotUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ballotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -645,6 +929,7 @@
 		};
 		B0642B651D8A054F00144DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426AB7610A146578EEE04D8B /* Pods-ballotUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ballotUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -656,6 +941,7 @@
 		};
 		B0642B881D8A063600144DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD4C6992EE826D69B26F382 /* Pods-ballot-watch Extension.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ballot-watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -670,6 +956,7 @@
 		};
 		B0642B891D8A063600144DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87133269C3F12BC65D9A9D40 /* Pods-ballot-watch Extension.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ballot-watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -684,6 +971,7 @@
 		};
 		B0642B8C1D8A063600144DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0475A5B5F5FA422836C861 /* Pods-ballot-watch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -700,6 +988,7 @@
 		};
 		B0642B8D1D8A063600144DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97EFE4B6BC5CFCF54E3D79F /* Pods-ballot-watch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -733,6 +1022,7 @@
 				B0642B5F1D8A054F00144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0642B601D8A054F00144DF8 /* Build configuration list for PBXNativeTarget "ballotTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +1031,7 @@
 				B0642B621D8A054F00144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0642B631D8A054F00144DF8 /* Build configuration list for PBXNativeTarget "ballotUITests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +1040,7 @@
 				B0642B651D8A054F00144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0642B871D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch Extension" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +1049,7 @@
 				B0642B891D8A063600144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0642B8B1D8A063600144DF8 /* Build configuration list for PBXNativeTarget "ballot-watch" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +1058,7 @@
 				B0642B8D1D8A063600144DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
