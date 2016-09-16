@@ -16,9 +16,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+//    create new poll
+    func createPoll() {
         rootRef.child("posts").childByAutoId().setValue("woot")
-        
-    
+    }
+    @IBAction func createPollButton(sender: AnyObject) {
+        createPoll()
     }
 
     override func didReceiveMemoryWarning() {
