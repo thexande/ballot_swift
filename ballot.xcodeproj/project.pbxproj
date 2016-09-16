@@ -26,6 +26,7 @@
 		B0642B821D8A063600144DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0642B811D8A063600144DF8 /* Assets.xcassets */; };
 		B0642B861D8A063600144DF8 /* ballot-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0642B681D8A063600144DF8 /* ballot-watch.app */; };
 		B084B26E1D8B492400E9BEB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */; };
+		B09708EB1D8B86B3002766B6 /* newPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09708EA1D8B86B3002766B6 /* newPollViewController.swift */; };
 		B0B0FE64FFDC1E13C9C43A1F /* Pods_ballot_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */; };
 		C0F29472478628595D165106 /* Pods_ballot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		B0642B811D8A063600144DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0642B831D8A063600144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B09708EA1D8B86B3002766B6 /* newPollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPollViewController.swift; sourceTree = "<group>"; };
 		B8A191297B3B8C366ABFB315 /* Pods_ballotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97EFE4B6BC5CFCF54E3D79F /* Pods-ballot-watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.release.xcconfig"; sourceTree = "<group>"; };
 		BF0475A5B5F5FA422836C861 /* Pods-ballot-watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				B0642B3F1D8A054E00144DF8 /* Assets.xcassets */,
 				B0642B411D8A054E00144DF8 /* LaunchScreen.storyboard */,
 				B0642B441D8A054E00144DF8 /* Info.plist */,
+				B09708EA1D8B86B3002766B6 /* newPollViewController.swift */,
 			);
 			path = ballot;
 			sourceTree = "<group>";
@@ -696,6 +699,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09708EB1D8B86B3002766B6 /* newPollViewController.swift in Sources */,
 				B0642B3B1D8A054E00144DF8 /* ViewController.swift in Sources */,
 				B0642B391D8A054E00144DF8 /* AppDelegate.swift in Sources */,
 			);

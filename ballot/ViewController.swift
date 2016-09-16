@@ -17,12 +17,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-//    create new poll
+    // horizontal slider
+    
+    // create new poll
     func createPoll() {
         rootRef.child("posts").childByAutoId().setValue("woot")
     }
+    // create poll button
     @IBAction func createPollButton(sender: AnyObject) {
-        createPoll()
+        print("create poll view")
     }
 
     override func didReceiveMemoryWarning() {
