@@ -28,6 +28,7 @@
 		B084B26E1D8B492400E9BEB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */; };
 		B09708EB1D8B86B3002766B6 /* newPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09708EA1D8B86B3002766B6 /* newPollViewController.swift */; };
 		B0B0FE64FFDC1E13C9C43A1F /* Pods_ballot_watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */; };
+		B0DEFE171D8C99E00085FB53 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DEFE161D8C99E00085FB53 /* MapKit.framework */; };
 		C0F29472478628595D165106 /* Pods_ballot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +126,7 @@
 		B0642B831D8A063600144DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B084B26D1D8B492400E9BEB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B09708EA1D8B86B3002766B6 /* newPollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPollViewController.swift; sourceTree = "<group>"; };
+		B0DEFE161D8C99E00085FB53 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B8A191297B3B8C366ABFB315 /* Pods_ballotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ballotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97EFE4B6BC5CFCF54E3D79F /* Pods-ballot-watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.release.xcconfig"; sourceTree = "<group>"; };
 		BF0475A5B5F5FA422836C861 /* Pods-ballot-watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ballot-watch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ballot-watch/Pods-ballot-watch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DEFE171D8C99E00085FB53 /* MapKit.framework in Frameworks */,
 				C0F29472478628595D165106 /* Pods_ballot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +181,7 @@
 		490F6F7C99A737AF09F6CB3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0DEFE161D8C99E00085FB53 /* MapKit.framework */,
 				948D9BD83B8F3CDAFACEF198 /* Pods_ballot.framework */,
 				9B9F9568BBAFF35583A0BBBD /* Pods_ballot_watch.framework */,
 				614C75E08047080F2219CC13 /* Pods_ballot_watch_Extension.framework */,

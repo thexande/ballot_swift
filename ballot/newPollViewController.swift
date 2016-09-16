@@ -8,12 +8,21 @@
 
 import Foundation
 import UIKit
+import MapKit
+import CoreLocation
 
-class newPollViewController : UIView {
+
+class newPollViewController : UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     @IBOutlet weak var rangeSlider: UISlider!
     @IBOutlet weak var rangeLabel: UILabel!
+    @IBOutlet weak var mapView: MKMapView!
+
+    let locationManager = CLLocationManager()
     
+    
+    
+        
     
     @IBAction func pollRangeSlider(sender: UISlider) {
         let currentValue = Int(sender.value)
