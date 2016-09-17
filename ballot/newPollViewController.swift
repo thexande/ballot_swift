@@ -24,7 +24,7 @@ class newPollViewController : UIViewController, MKMapViewDelegate, CLLocationMan
     
         
     
-    @IBAction func pollRangeSlider(sender: UISlider) {
+    @IBAction func pollRangeSlider(_ sender: UISlider) {
         let currentValue = Int(sender.value)
         rangeLabel.text = "\(currentValue)"
     }

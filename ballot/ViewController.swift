@@ -35,7 +35,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         rootRef.child("posts").childByAutoId().setValue("woot")
     }
     // create poll button
-    @IBAction func createPollButton(sender: AnyObject) {
+    @IBAction func createPollButton(_ sender: AnyObject) {
         print("create poll view")
     }
 
@@ -43,8 +43,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        var locValue:CLLocationCoordinate2D = manager.location.coordinate
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
     }
 }

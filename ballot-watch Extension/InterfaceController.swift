@@ -16,8 +16,8 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var myLabel: WKInterfaceLabel!
     
     
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
         
         // Configure interface objects here.
     }
@@ -33,8 +33,8 @@ class InterfaceController: WKInterfaceController {
     }
 //    my test aciton
     @IBAction func textInputPressed() {
-        presentTextInputControllerWithSuggestions(textChoices,
-                                                  allowedInputMode: WKTextInputMode.Plain,
+        presentTextInputController(withSuggestions: textChoices,
+                                                  allowedInputMode: WKTextInputMode.plain,
                                                   completion: {(results) -> Void in })
 
     }
